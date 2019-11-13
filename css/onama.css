@@ -1,0 +1,273 @@
+.opis1{
+  height: 700px;
+  position: relative;
+  width: 100%;
+  top:70px;
+  margin-bottom: 50px;
+}
+
+.sreten{
+  position: relative;
+  display: block;
+  top:10px;
+  width: 80%;
+  height: 800px;
+  margin: auto;
+  padding: 5px;
+
+}
+
+
+span{
+  position: absolute;
+  right: 250px;
+  font-size: 20px;
+  border: 3px solid #83b8f3;
+  border-radius: 15px;
+  padding: 5px;
+  cursor:pointer;
+  color: #83b8f3;
+}
+
+.sreten h1{
+  font-size: 32px;
+  height: 50px;
+  margin: 20px auto;
+  padding: 5px;
+  width: 70%;
+  text-align:left;
+  padding-left: 60px;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.8);
+}
+.sreten p{
+  float:left;
+  position: relative;
+  top:20px;
+  left:200px;
+  width: 40%;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
+  background: black;
+  height: 400px;
+  color:white;
+  font-size: 24px;
+  padding:10px;
+  line-height: 50px;
+
+}
+
+.sreten img{
+  position: relative;
+  top:50px;
+  left: 250px;
+  width: 300px;
+  height: 350px;
+}
+
+.zoran{
+  position: relative;
+  display: block;
+  top:-540px;
+  width: 80%;
+  height: 800px;
+  margin: auto;
+  padding: 5px;
+
+}
+.zoran p{
+  float:left;
+  position: relative;
+  top:20px;
+  left:200px;
+  width: 40%;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
+  background: black;
+  height: 400px;
+  color:white;
+  font-size: 24px;
+  padding:10px;
+  line-height: 50px;
+
+}
+
+.zoran img{
+  position: relative;
+  top:50px;
+  left: 250px;
+  width: 300px;
+  height: 350px;
+}
+.andreja{
+  position: relative;
+  display: block;
+  top:-1350px;
+  width: 80%;
+  height: 800px;
+  margin: auto;
+  padding: 5px;
+
+}
+.andreja p{
+  float:left;
+  position: relative;
+  top:20px;
+  left:200px;
+  width: 40%;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
+  background: black;
+  height: 400px;
+  color:white;
+  font-size: 24px;
+  padding:10px;
+  line-height: 50px;
+
+}
+
+.andreja img{
+  position: relative;
+  top:50px;
+  left: 250px;
+  width: 300px;
+  height: 350px;
+}
+
+@media screen and (max-width:768px) {
+
+  .opis1{
+    height: 700px;
+    position: relative;
+    width: 100%;
+    top:70px;
+    margin-bottom: 50px;
+    display: block;
+  }
+
+  .sreten{
+    position: relative;
+    display: block;
+    top:10px;
+    width: 100%;
+    height: 800px;
+    margin: auto;
+    padding: 5px;
+
+  }
+
+
+  span{
+    position: absolute;
+    right: 70px;
+    font-size: 16px;
+    border: 3px solid #1481fc;
+    border-radius: 15px;
+    padding: 5px;
+    cursor:pointer;
+    color: #1481fc;
+  }
+
+  .sreten h1{
+    font-size: 30px;
+    height: 40px;
+    margin: 20px auto;
+    padding: 5px;
+    width: 70%;
+    text-align:left;
+    padding-left: 60px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.8);
+  }
+  .sreten p{
+    float:left;
+    position: relative;
+    top:20px;
+    left:50px;
+    width: 40%;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
+    background: black;
+    height: 400px;
+    color:white;
+    font-size: 14px;
+    padding:10px;
+    line-height: 50px;
+
+  }
+
+  .sreten img{
+    position: relative;
+    top:100px;
+    left: 60px;
+    width: 250px;
+    height: 250px;
+  }
+
+  .zoran{
+    position: relative;
+    display: block;
+    top:-570px;
+    width: 100%;
+    height: 800px;
+    margin: auto;
+    padding: 5px;
+
+  }
+  .zoran p{
+    float:left;
+    position: relative;
+    top:20px;
+    left:50px;
+    width: 40%;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
+    background: black;
+    height: 400px;
+    color:white;
+    font-size: 14px;
+    padding:10px;
+    line-height: 50px;
+
+  }
+
+  .zoran img{
+    position: relative;
+    top:100px;
+    left: 60px;
+    width: 250px;
+    height: 250px;
+  }
+  .andreja{
+    position: relative;
+    display: block;
+    top:-1380px;
+    width: 100%;
+    height: 800px;
+    margin: auto;
+    padding: 5px;
+
+  }
+  .andreja p{
+    float:left;
+    position: relative;
+    top:20px;
+    left:50px;
+    width: 40%;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
+    background: black;
+    height: 400px;
+    color:white;
+    font-size: 14px;
+    padding:10px;
+    line-height: 50px;
+
+  }
+
+  .andreja img{
+    position: relative;
+    top:100px;
+    left: 60px;
+    width: 250px;
+    height: 250px;
+  }
+}

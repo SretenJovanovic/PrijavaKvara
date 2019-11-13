@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- FONT -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/prijaviobrazac.css">
+
+
+
+  <style>
+    .form-box label {
+      color: white;
+    }
+  </style>
+
+
+
+  <title>ProjekatX</title>
+
+
+</head>
+
+<body>
+
+  <!-- PRIJAVI KVAR-->
+  <h1>PRIJAVI KVAR</h1>
+  <form class="myForm" action="includes/prijava.inc.php" method="POST">
+
+    <p class="form-box" onsubmit="myFunction()">
+      <label for="racunar">Racunar br.</label>
+      <select class="racunar" name="racunar">
+        <optgroup label="Ucionica br1">
+          <option value="racunar1">Racunar ID 1.</option>
+          <option value="racunar2">Racunar ID 2.</option>
+          <option value="racunar3">Racunar ID 3.</option>
+          <option value="racunar4">Racunar ID 4.</option>
+          <option value="racunar5">Racunar ID 5.</option>
+          <option value="racunar6">Racunar ID 6.</option>
+          <option value="racunar7">Racunar ID 7.</option>
+          <option value="racunar8">Racunar ID 8.</option>
+          <option value="racunar9">Racunar ID 9.</option>
+          <option value="racunar10">Racunar ID 10.</option>
+        </optgroup>
+        <optgroup label="Ucionica br2">
+          <option value="racunar11">Racunar ID 11.</option>
+          <option value="racunar12">Racunar ID 12</option>
+          <option value="racunar13">Racunar ID 13</option>
+          <option value="racunar14">Racunar ID 14</option>
+          <option value="racunar15">Racunar ID 15</option>
+          <option value="racunar16">Racunar ID 16</option>
+          <option value="racunar17">Racunar ID 17.</option>
+          <option value="racunar18">Racunar ID 18.</option>
+          <option value="racunar19">Racunar ID 19.</option>
+          <option value="racunar20">Racunar ID 20.</option>
+        </optgroup>
+        <optgroup label="Ucionica br3">
+          <option value="racunar21">Racunar ID 21.</option>
+          <option value="racunar22">Racunar ID 22.</option>
+          <option value="racunar23">Racunar ID 23.</option>
+          <option value="racunar24">Racunar ID 24.</option>
+          <option value="racunar25">Racunar ID 25.</option>
+          <option value="racunar26">Racunar ID 26.</option>
+          <option value="racunar27">Racunar ID 27.</option>
+          <option value="racunar28">Racunar ID 28.</option>
+          <option value="racunar29">Racunar ID 29.</option>
+          <option value="racunar30">Racunar ID 30.</option>
+        </optgroup>
+      </select>
+    </p>
+    <p class="form-box prio">
+      <label for="prioritet">Prioritet:</label>
+      <select class="prioritet" name="prioritet">
+        <optgroup>
+          <option value="nizak">Nizak</option>
+          <option value="srednji">Srednji</option>
+          <option value="visok">Visok</option>
+        </optgroup>
+      </select>
+    </p>
+    <p class="form-box">
+      <label class="label" for="textarea">Opis kvara:</label>
+      <textarea name="opis" class="textarea" rows="10" cols="50" placeholder="Opisite kvar..."  minlength="5" required></textarea>
+    </p>
+
+    <?php
+      if (isset($_GET["submit"])) {
+          if ($_GET["submit"] == "success") {
+            echo '<p class="signupsuccess">Prijava je prosledjena.</p>';
+          }
+      }
+      ?>
+    <p class="form-box">
+      <button type="submit" name="prosledi" class="prosledi">PROSLEDI PRIJAVU...</button>
+    </p>
+
+    </form?>
+    <!-- END OF PRIJAVI KVAR-->
+
+
+
+
+    <!-- LISTA PRIJAVLJENIH KVAROVA-->
+
+    <!--END OF LISTA PRIJAVLJENIH KVAROVA-->
+</body>
+
+</html>
